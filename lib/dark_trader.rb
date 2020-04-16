@@ -12,7 +12,7 @@ end
 #Second: get the currency name
 
 def crypto_name
-	crypto_name_array = doc.xpath('//tr[*]/td[3]').collect(&:text)
+	crypto_name_array = doc.xpath('//tr[*]/td[3]').collect(&:text) #put into texct
 return crypto_name_array
 end
 
