@@ -26,21 +26,21 @@ end
 
 #Fourth: reunite the both with an hash
 
-def solution_big_hash
+def solution
 	solution_hash = Hash[crypto_name.zip(crypto_price)]
 return solution_hash
 end
 
 #Fith: Lets mini hash everything
 
-def proper_solution_w_mini_hash
+def proper_solution
 	array_final = []
 	solution_big_hash.each { |key_value| array_final << {key_value[0] => key_value[1]} }
 	puts array_final
 end
 
 def perform
-	proper_solution_w_mini_hash
+	proper_solution
 end
 
 perform
