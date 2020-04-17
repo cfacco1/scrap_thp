@@ -11,6 +11,6 @@ describe "data data" do
 #Test that the program is an array of hashes 
 
     it "should return a hash" do 
-      expect(solution_big_hash).not_to be_nil
+      expect(solution_hash).not_to be_nil
     end
 end
