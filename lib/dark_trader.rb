@@ -35,7 +35,7 @@ end
 
 def proper_solution
 	array_final = []
-	solution_big_hash.each { |key_value| array_final << {key_value[0] => key_value[1]} }
+	solution.each { |key_value| array_final << {key_value[0] => key_value[1]} }
 	puts array_final
 end
 
